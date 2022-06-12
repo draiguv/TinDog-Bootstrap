@@ -1,4 +1,4 @@
-#TinDog-Bootstrap
+# TinDog-Bootstrap
 For bootstrap training together with git.<br>
 <br>
 A copycat of a site in purpose of learning and familiarizing Bootstrap.<br>
