@@ -11,6 +11,14 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+
+
 /* BOOTSTRAP SELECTORS */
 .container-fluid {
     padding: 3% 15%;
@@ -37,11 +45,20 @@ h1 {
     font-weight: 100;
 }
 
+
+
 /* ID SELECTORS */
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
+
+#features {
+    margin-top: 5rem;
+    padding: 7% 15%;
+}
+
+
 
 /* CLASS SELECTORS */
 .download-button {
@@ -52,4 +69,22 @@ h1 {
     width: 50%;
     transform: rotate(25deg);
     text-align: center;
+}
+
+.icon-features {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+.p-features {
+    color: #8f8f8f;
+}
+
+.col-features {
+    text-align: center;
+    padding: 7%;
 }
