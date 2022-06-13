@@ -1,4 +1,4 @@
-/* ELEMENT SELECTORS */
+/* ELEMENT SELECTORS **********************************************************************/
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -26,9 +26,9 @@ h3 {
 
 
 
-/* BOOTSTRAP SELECTORS */
+/* BOOTSTRAP SELECTORS ********************************************************************/
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -54,15 +54,16 @@ h3 {
 
 
 
-/* ID SELECTORS */
+/* ID SELECTORS ***************************************************************************/
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
 
 #features {
-    margin-top: 5rem;
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 #testimonials {
@@ -77,9 +78,14 @@ h3 {
     padding-bottom: 3%;
 }
 
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
 
 
-/* CLASS SELECTORS */
+
+/* CLASS SELECTORS ************************************************************************/
 .download-button {
     margin: 5% 3% 5% 0;
 }
@@ -87,7 +93,8 @@ h3 {
 .title-image {
     width: 50%;
     transform: rotate(25deg);
-    text-align: center;
+    position: absolute;
+    right: 35%;
 }
 
 .icon-features {
@@ -121,4 +128,13 @@ h3 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.img_parent {
+    position: relative;
+    height: 500px;
 }
