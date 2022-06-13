@@ -138,3 +138,25 @@ h3 {
     position: relative;
     height: 500px;
 }
+
+
+
+/* MEDIA QUERIES ************************************************************************/
+@media (max-width: 1035px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 1035px) and (min-width: 992px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 85%;
+    }
+}
