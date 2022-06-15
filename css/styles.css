@@ -160,7 +160,14 @@ h3 {
 }
 
 .footer-icons {
-    margin: 25px 10px;
+    margin: 40px 12px;
+}
+
+.p-footer {
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
